@@ -1,6 +1,6 @@
 {% set name = "dask-drmaa" %}
-{% set version = "0.1.1" %}
-{% set sha256 = "999f8e037c3cfd56a885eb9b15bfb06e552bf37292c1434e153a8f4527afb644" %}
+{% set version = "0.1.2" %}
+{% set sha256 = "5d5ff119babc89d37bd6eb44e4f2297d5766d8e8614871d940a22f656f761030" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
   entry_points:
