@@ -1,6 +1,6 @@
 {% set name = "dask-drmaa" %}
-{% set version = "0.1.2" %}
-{% set sha256 = "5d5ff119babc89d37bd6eb44e4f2297d5766d8e8614871d940a22f656f761030" %}
+{% set version = "0.2.0" %}
+{% set sha256 = "8bc9a730d5cd7f9b1d9541f1076c2300f5590f09c6c38b0f3d2d21b00852c746" %}
 
 package:
   name: {{ name|lower }}
@@ -26,7 +26,7 @@ requirements:
   run:
     - python
     - dask-core
-    - distributed >=1.20.0
+    - distributed >=1.21.3
     - drmaa
     - click
 
