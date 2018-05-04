@@ -14,12 +14,15 @@ Summary: Dask on DRMAA
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/dask-drmaa-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/dask-drmaa-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/dask-drmaa-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/dask-drmaa-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dask-drmaa/badges/version.svg)](https://anaconda.org/conda-forge/dask-drmaa)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dask-drmaa/badges/downloads.svg)](https://anaconda.org/conda-forge/dask-drmaa)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-dask--drmaa-green.svg)](https://anaconda.org/conda-forge/dask-drmaa) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/dask-drmaa.svg)](https://anaconda.org/conda-forge/dask-drmaa) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/dask-drmaa.svg)](https://anaconda.org/conda-forge/dask-drmaa) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/dask-drmaa.svg)](https://anaconda.org/conda-forge/dask-drmaa) |
 
 Installing dask-drmaa
 =====================
