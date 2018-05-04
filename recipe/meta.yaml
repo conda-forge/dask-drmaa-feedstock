@@ -1,6 +1,6 @@
 {% set name = "dask-drmaa" %}
-{% set version = "0.2.0" %}
-{% set sha256 = "8bc9a730d5cd7f9b1d9541f1076c2300f5590f09c6c38b0f3d2d21b00852c746" %}
+{% set version = "0.2.1" %}
+{% set sha256 = "8b02524c38138358da2076c3405a340b493a6f07f2a2865e6805edce073ca6d2" %}
 
 package:
   name: {{ name|lower }}
